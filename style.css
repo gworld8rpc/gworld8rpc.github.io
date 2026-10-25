@@ -30,24 +30,21 @@ nav a { font-size: 0.95rem; }
 nav a:hover { color: var(--blue); }
 
 /* インスタグラムのアイコン */
-nav a.sns-link, footer a.sns-link {
-  display: inline-flex; align-items: center; justify-content: center;
-  width: 36px; height: 36px; border-radius: 50%;
-  border: 1px solid var(--line); color: var(--navy);
-  transition: background 0.2s, color 0.2s;
+.sns-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
 }
-nav a.sns-link:hover, footer a.sns-link:hover { background: var(--navy); color: #fff; }
-.sns-link svg { width: 18px; height: 18px; }
 
-/* メインビジュアル */
-.hero { background: var(--navy); color: #fff; padding: 110px 0; }
-.hero-title { font-size: clamp(1.7rem, 5vw, 2.8rem); line-height: 1.5; font-weight: 700; }
-.btn {
-  display: inline-block; margin-top: 36px; padding: 14px 36px;
-  background: #fff; color: var(--navy); font-weight: 700;
-  border-radius: 4px; transition: background 0.2s;
+.sns-link svg {
+  width: 20px;
+  height: 20px;
 }
-.btn:hover { background: #e4ebf5; }
 
 /* セクション */
 section { padding: 88px 0; }
